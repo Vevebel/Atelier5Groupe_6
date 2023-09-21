@@ -1,0 +1,68 @@
+.espace1{
+    text-align: center;
+}
+.test_grid{
+    display: grid;
+    grid-template-columns: 22% 22% 22%;
+    gap: 2px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.grid{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.grid h4{
+    text-align: center;
+}
+.vert{
+    background-color: green;
+    border-radius: 50%;
+    border-color: rgba(0, 128, 0, 0.137);
+    margin-left: 120px;
+    box-shadow:
+        0 10px 12px 5px rgba(0, 128, 0, 0.137),
+        10px 0 12px 5px rgba(0, 128, 0, 0.137),
+        0 -10px 12px 5px rgba(0, 128, 0, 0.137),
+        -10px 0 12px 5px rgba(0, 128, 0, 0.137);
+    }
+.grid  p span{
+    color: orangered;
+    font-weight: bold;
+    font-size: 26px;
+ 
+}
+.grid  p span {
+    margin-left: 30%;
+}
+.grid .barrer{
+    color: #3e3f3d56;
+    text-decoration: line-through;
+}
+.grid sub{
+    color: #3e3f3d56;
+}
+.grid:hover{
+    border: 2px solid green;
+}
+.buy{
+    background-color: #fff;
+    border: 1px solid green;
+    color: green;
+    width: 30%;
+    border-radius: 4px;
+    margin-left: 30%;
+}
+
+@media only screen and (max-width:900px) {
+    .test_grid{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+}

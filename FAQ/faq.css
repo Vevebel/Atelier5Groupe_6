@@ -1,0 +1,58 @@
+.container{
+    width: 100%;
+    display: flex;
+    background-color: #ededed;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    margin-left: 8%;
+    width: 30%;
+    height: 30%;
+}
+article .titre{
+    font-size: 24px;
+    font-family: "roboto";
+}
+article h5{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: -12px;
+}
+article .para{
+    margin-top: -25px;
+}
+aside{
+    width: 50%;;
+    padding-right: 43px;
+}
+aside .bloc{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    background-color: #fff;
+    margin-top: 10px;
+}
+aside .bloc .text span{
+    color: green;
+    font-size: 18px;
+}
+aside .icone{
+    margin-top: 17px;
+    margin-right: 13px;
+}
+
+@media only screen and (max-width: 900px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container article{
+        width: 50%;
+    }
+    .container aside{
+        width: 50%;
+    }
+}
