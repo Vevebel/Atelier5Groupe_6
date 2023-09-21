@@ -1,0 +1,111 @@
+.page{
+    display: grid;
+    grid-template-rows: 20% 80%;
+    border: #5d1717;
+    padding-top: 10px;
+}
+.contenu{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border: gray 1px solid;
+    padding-top: 25px;
+   
+}
+.contenuA{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: #008374;
+    margin: 5px;
+}
+.buttcontA{
+    height: 35px;
+    width: 35px;
+    background-color:  #33A89B;
+    border-radius: 50%;  
+}
+.db1{
+    padding-top: 15px;
+    margin-left: 15px;
+}
+.entete{
+    text-align: center;
+}
+.entete hr{
+    width: 40px;
+    height: 2px;
+    color: #008374;
+    background-color:#008374 ;
+    
+}
+.contenuB{
+    display: grid;
+    grid-template-rows: 1fr 1fr 6fr 1fr;
+    border-radius: 15px;
+}
+.contenuB1{
+    display: grid;
+    margin: 20px;
+    height: 50px; 
+}
+.fille1{
+    margin-right: 15px ;
+    
+}
+.fille{
+    margin-right:11px ;
+    
+}
+
+.faB{
+    width: 95%;
+    height: 50px;
+    margin: 10px;
+}
+.fa1{
+    width: 95%;
+    height: 150px;
+    margin: 10px;
+}
+.filsContA{
+    margin: 5px;
+    background-color: #009282;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 10px;
+}
+.divbut{
+    justify-content: right;
+}
+.butcb3{
+    width: 50%;
+    text-align: center;
+    height:30px ;
+    border-radius: 55px;
+    background-color: #008374 ;
+    color: white;
+    justify-content: center;
+    margin-left: 155px;
+}
+.filsContA .pA1{
+    margin-right: 100px;
+}
+@media only screen and (max-width:900px) {
+    .page{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+      
+    }
+     .contenu{
+        display: flex;
+        width: 100%;
+       flex-direction: column;
+    }
+    
+    .contenuB{
+        display: flex;
+       width:70% ;
+        grid-template-rows: 100%;
+    } 
+    
+}

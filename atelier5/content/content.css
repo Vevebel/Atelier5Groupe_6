@@ -1,0 +1,48 @@
+.content{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    gap: 50px; 
+    justify-content: center;
+}
+/* .sectcontent{
+    
+    text-align: center;
+} */
+ .profil{
+    display: flex;
+}
+
+.sectcontent .lastLine{
+    text-align: center;
+}
+ .lastLine2{
+    background-color:#008374 ;
+    text-align: center;
+}
+
+.tailleP{
+    width: 48px;
+    height: 48px;
+    border-radius: 25px;
+    padding-top: 10px;
+}
+.content .activite{
+    border-radius: 15px;
+    border-color: #008374; 
+ } 
+ @media only screen and (max-width:1300px) {
+    .content{
+        display: grid;
+        grid-template-columns: 30% 30%;
+        gap: 50px; 
+        justify-content: center;
+    }    
+}
+ @media only screen and (max-width:1100px) {
+    .content{
+        display: grid;
+        grid-template-columns: 50%;
+        gap: 50px; 
+        justify-content: center;
+    }    
+}
