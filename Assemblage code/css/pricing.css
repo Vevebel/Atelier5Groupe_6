@@ -1,0 +1,97 @@
+.section-pricing{
+    padding: 0 10%;;
+}
+.section-pricing .espace1{
+    text-align: center;
+}
+.section-pricing  .test_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2vh;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.section-pricing  .grid{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 2vh;
+}
+
+.section-pricing  .grid .plan{
+    text-align: center;
+}
+.section-pricing  .grid h4{
+    text-align: center;
+    margin-bottom: 4vh;
+}
+
+
+.section-pricing  .vert{
+    background-color: #008374;
+    font-size: 3vh;
+    padding: 3vh 3vh;
+    border-radius: 100%;
+    border-color: rgba(0, 128, 0, 0.137);
+    box-shadow:
+        0 10px 12px 5px rgba(0, 128, 0, 0.137),
+        10px 0 12px 5px rgba(0, 128, 0, 0.137),
+        0 -10px 12px 5px rgba(0, 128, 0, 0.137),
+        -10px 0 12px 5px rgba(0, 128, 0, 0.137);
+    }
+.section-pricing  .grid  p span{
+    color: orangered;
+    font-weight: bold;
+    font-size: 26px; 
+}
+
+.section-pricing  .grid .barrer{
+    color: #3e3f3d56;
+    text-decoration: line-through;
+}
+.section-pricing  .grid sub{
+    color: #3e3f3d56;
+}
+.section-pricing  .grid:hover{
+    border: 2px solid green;
+    transform: scale(1.1);
+}
+.section-pricing  .buy{
+    background-color: #fff;
+    border: 1px solid #008374;
+    color: #008374;
+    border-radius: 4vh;
+    padding: 2vh 5vh;
+    margin-left: 25%;
+}
+
+@media only screen and (max-width:950px) {
+    .section-pricing  .test_grid{
+        
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+}
+
+/* Media queries  */
+@media only screen and (max-width: 950px){
+    .section-pricing  .test_grid{
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .section-pricing  .test_grid{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    gap: 50px; 
+    justify-content: center;
+}
+/* .sectcontent{
+    
+    text-align: center;
+} */
+ .profil{
+    display: flex;
+    margin-left: 15px;
+}
+
+.sectcontent .lastLine{
+    text-align: center;
+}
+ .lastLine2{
+    background-color:#008374 ;
+    text-align: center;
+    color: #ffffff;
+    padding: 1vh;
+    border-radius: 5px;
+}
+.activite1{
+    width: 100%;
+    border-radius: 15px  15px 0 0;
+}
+.activite h5,p{
+    /* margin-left: 15px; */
+}
+.tailleP{
+    width: 48px;
+    height: 48px;
+    border-radius: 25px;
+    padding-top: 10px;
+}
+ .content .activite{
+    border-radius:15px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 10px #ededed;
+ } 
+
+ .logo {
+    font-size: 35px;
+    margin-top: -1vh;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+ @media only screen and (max-width:1300px) {
+    .content{
+        display: grid;
+        grid-template-columns: 30% 30%;
+        gap: 50px; 
+        justify-content: center;
+    }    
+}
+ @media only screen and (max-width:700px) {
+    .content{
+        display: grid;
+        grid-template-columns: 50%;
+        gap: 50px; 
+        justify-content: center;
+    }    
+}

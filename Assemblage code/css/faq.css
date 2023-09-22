@@ -1,0 +1,117 @@
+.container-faq{
+    margin: 0 auto;
+    padding-bottom: 12vh;
+    margin: 0 auto;
+
+}
+
+.section-faq{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-faq article{
+    width: 30%;
+    height: 30%;
+    padding: 2vh;
+}
+
+
+article .titre{
+    font-size: 24px;
+    font-family: "roboto";
+}
+article .question{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: -1vh;
+}
+article .para{
+    margin-top: -1vh;
+}
+
+aside{
+    width: 50%;;
+    padding-right: 43px;
+}
+details {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: white;
+}
+summary {
+    cursor: pointer;
+    display: flex;
+}
+.arrow {
+    font-size: 2vh;
+    transform: rotate(0deg);
+    transition: transform 0.2s;
+    margin-left: 30vh;
+}
+details[open] .arrow {
+    transform: rotate(180deg);
+}
+details[open] {
+    background-color: #ffff;
+}
+.number{
+    color: green;
+    margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 900px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container article{
+        width: 50%;
+    }
+    .container aside{
+        width: 50%;
+    }
+}
+
+aside{
+    width: 40%;
+    padding-bottom: 1vh;
+    background-color: #ededed;
+}
+
+/* 
+aside .bloc{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 1vh;
+}
+aside .bloc .text span{
+    color: green;
+    font-size: 18px;
+}
+aside .icone{
+    margin-top: 17px;
+    margin-right: 13px;
+} */
+
+@media only screen and (max-width: 950px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container article{
+        width: 50%;
+    }
+    .container aside{
+        width: 50%;
+    }
+} 
