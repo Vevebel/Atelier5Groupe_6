@@ -2,20 +2,22 @@
     display: grid;
     grid-template-rows: 20% 80%;
     border: #5d1717;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 .contenu{
     display: grid;
     grid-template-columns: 30% 70%;
-    border: gray 1px solid;
-    padding-top: 25px;
+    /* border: gray 1px solid; */
+    padding-top: 20px;
+   
    
 }
 .contenuA{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     background-color: #008374;
-    margin: 5px;
+    margin: 0 10px;
+    height: 640px;
 }
 .buttcontA{
     height: 35px;
@@ -42,10 +44,13 @@
     grid-template-rows: 1fr 1fr 6fr 1fr;
     border-radius: 15px;
 }
+
 .contenuB1{
     display: grid;
-    margin: 20px;
-    height: 50px; 
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    /* width: 95%; */
+    /* h eight: 50px; */
 }
 .fille1{
     margin-right: 15px ;
@@ -55,7 +60,6 @@
     margin-right:11px ;
     
 }
-
 .faB{
     width: 95%;
     height: 50px;
@@ -63,15 +67,15 @@
 }
 .fa1{
     width: 95%;
-    height: 150px;
+    height: 350px;
     margin: 10px;
 }
 .filsContA{
-    margin: 5px;
+    margin: 3px;
     background-color: #009282;
-    border-radius: 5px;
+    border-radius: 8px;
     display: flex;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .divbut{
     justify-content: right;
@@ -79,33 +83,48 @@
 .butcb3{
     width: 50%;
     text-align: center;
-    height:30px ;
+    height:50px ;
     border-radius: 55px;
     background-color: #008374 ;
     color: white;
     justify-content: center;
     margin-left: 155px;
+    margin-top: -250px;
+    /* margin-bottom: 50px; */ 
 }
-.filsContA .pA1{
+.contenuA .filsContA .pA1{
     margin-right: 100px;
+    margin-bottom: -15px;
 }
-@media only screen and (max-width:900px) {
+
+/* 
+@media only screen and (max-width:1800px) {
     .page{
         display: flex;
         width: 100%;
         flex-direction: column;
-      
     }
-     .contenu{
+    .contenu{
         display: flex;
         width: 100%;
        flex-direction: column;
     }
     
+    .contenuB1{
+        display: grid;
+        flex-direction: column;
+         /* margin: 20px; 
+        height: 50px;  
+    }
+    
     .contenuB{
         display: flex;
+        flex-direction: column;
        width:70% ;
         grid-template-rows: 100%;
-    } 
-    
-}
+    }  
+    .filler,.fille1{
+        display: flex;
+
+    }
+} */

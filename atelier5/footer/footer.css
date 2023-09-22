@@ -39,18 +39,7 @@
     margin-left: 40px;
 } 
 @media only screen and (max-width:1800px){
-    /* .footer{
-        display: grid;
-        grid-template-columns: auto;
-        width: 100%;
-        
-    }
-    .contenuP{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        
-    } */
+   
     .footer{
         display: flex;
         flex-direction: column;
